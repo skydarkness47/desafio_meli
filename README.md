@@ -4,4 +4,5 @@ CONSIDERACIONES
 
 1) HAY QUE CREAR UNA VARIABLE DE ENTORNO CON UNA KEY DE APLICACION PARA QUE PUEDAS ENVIAR LOS CORREOS, CON EL NOMBRE "GOOGLE"
 2) SE GENERO EL SCRIPT CON UNA BASE LOCAL SQLLITE, DE IGUAL MANERA ES POSIBLE REPLICARLO HACIA UNA BD PERO POR EL CASO DE USO NO LE VEO SENTIDO.
-3) Esta dockerizado - https://hub.docker.com/r/skydarkness47/desafio_meli
+3) Esta dockerizado - https://hub.docker.com/r/skydarkness47/desafio_meli / docker pull skydarkness47/desafio_meli:desafio_meli
+
