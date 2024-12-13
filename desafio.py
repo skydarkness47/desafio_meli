@@ -142,7 +142,7 @@ def send_email(mail, base):
         msg['From'] = "gerencia_ciber@ml.com"
         msg['To'] = mail
         msg['Subject'] = f"Revalide y de el ok de la siguiente base {base}"
-        body = "Hola, este es un correo enviado desde Python."
+        body = f"Hola, por favor dar ok para la revalida de la base {base}"
         msg.attach(MIMEText(body, 'plain'))
 
         server = smtplib.SMTP('smtp.gmail.com', 587)
